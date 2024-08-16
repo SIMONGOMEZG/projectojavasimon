@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Interactivo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Simulador Interactivo</h1>
+
+    <div>
+        <h2>Calcular Costo Total de Productos</h2>
+        <input type="number" id="product1" placeholder="Precio del Producto 1">
+        <input type="number" id="product2" placeholder="Precio del Producto 2">
+        <button onclick="calcularCostoTotal()">Calcular Costo Total</button>
+        <p id="costoTotal"></p>
+    </div>
+
+    <div>
+        <h2>Calcular Pagos en Cuotas</h2>
+        <input type="number" id="monto" placeholder="Monto a Financiar">
+        <input type="number" id="cuotas" placeholder="Cantidad de Cuotas">
+        <button onclick="calcularPagosCuotas()">Calcular Pagos en Cuotas</button>
+        <p id="pagoCuota"></p>
+    </div>
+
+    <div>
+        <h2>Calcular Valor Final con Impuestos y Descuentos</h2>
+        <input type="number" id="precio" placeholder="Precio del Producto">
+        <input type="number" id="impuesto" placeholder="Impuesto (%)">
+        <input type="number" id="descuento" placeholder="Descuento (%)">
+        <button onclick="calcularValorFinal()">Calcular Valor Final</button>
+        <p id="valorFinal"></p>
+    </div>
+
+    <div>
+        <h2>Calcular Tiempo de Espera Promedio</h2>
+        <input type="number" id="turnos" placeholder="Cantidad de Turnos">
+        <input type="number" id="tiempo" placeholder="Tiempo Total (minutos)">
+        <button onclick="calcularTiempoEspera()">Calcular Tiempo de Espera Promedio</button>
+        <p id="tiempoEspera"></p>
+    </div>
+
+    <div>
+        <h2>Calcular Edad Promedio</h2>
+        <input type="number" id="edad1" placeholder="Edad Persona 1">
+        <input type="number" id="edad2" placeholder="Edad Persona 2">
+        <input type="number" id="edad3" placeholder="Edad Persona 3">
+        <button onclick="calcularEdadPromedio()">Calcular Edad Promedio</button>
+        <p id="edadPromedio"></p>
+    </div>
+
+    <div>
+        <h2>Calcular Nota Final</h2>
+        <input type="number" id="nota1" placeholder="Nota 1">
+        <input type="number" id="nota2" placeholder="Nota 2">
+        <input type="number" id="nota3" placeholder="Nota 3">
+        <button onclick="calcularNotaFinal()">Calcular Nota Final</button>
+        <p id="notaFinal"></p>
+    </div>
+    
+    <script src="js/miarchivo.js"></script>
+</body>
+</html>
